@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Caveat', cursive;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    height: 100vh;
+    background-image: url(Gerberas_Mother\'s_Day_Gifts_Colored_background_590283_1280x853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+.overplay {
+    position: absolute;
+    background-color: rgb(240, 173, 180);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+.title{
+  position: relative;
+  text-align: center;
+  color: plum;
+  
+}
+.text{
+    background-color: white;
+    min-width: 300px;
+    min-height:250px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20%;
+    display:none;
+   
+
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: turquoise;
+    border-radius: 50%;
+    position: fixed;
+    overflow: hidden;
+    bottom: 30px;
+    right: 100px;
+}
+.circle_img.text {
+    width: 200%;
+     
+    
+}
+.circle:hover~.text {
+    display: block;
+}
